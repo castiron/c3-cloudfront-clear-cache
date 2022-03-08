@@ -69,7 +69,7 @@ class Settings {
 		add_options_page(
 			__( 'CloudFront Settings', Constants::text_domain() ),
 			__( 'CloudFront Settings', Constants::text_domain() ),
-			'cloudfront_clear_cache',
+			'editor',
 			Constants::MENU_ID,
 			function () {
 				require_once( C3_PLUGIN_PATH . '/templates/Settings.php' );
